@@ -2,7 +2,7 @@ import csv
 import json
 from pathlib import Path
 
-DATA_FOLDER = Path('/data')
+DATA_FOLDER = Path('/data') #vrátit
 
 SOURCE_FILE_PATH = DATA_FOLDER.joinpath('in/tables/input.csv')
 RESULT_FILE_PATH = DATA_FOLDER.joinpath('out/tables/output.csv')
